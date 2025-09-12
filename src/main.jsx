@@ -4,7 +4,7 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <div className='font-[Manrope] '>
+    <div className='font-[Manrope] tracking-wider '>
       <App />
     </div>
   </StrictMode>,
