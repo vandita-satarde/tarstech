@@ -5,6 +5,7 @@ import Counts from '../components/commoncomponents/Counts'
 import GetinTouch from '../components/commoncomponents/GetinTouch';
 
 import image from '../assets/images/herosectionimage.png'
+import whoweare from '../assets/images/whoweare.png'
 import People from '../components/aboutcomponents/people'
 
 function AboutPage() {
@@ -29,7 +30,11 @@ function AboutPage() {
         </div>
       </div>
 
-      <Whoweare />
+      <div className='py-10 lg:py-28 text-center bg-gradient-to-b from-black to-[#1E1E1E] text-white '>
+        <p className='text-[12px] lg:text-[18px] text-[#9C9C9C] font-[500] '>Case Study</p>
+        <p className='text-[16px] lg:text-[28px] mt-1 md:mt-3 uppercase font-[neutral_face]'>Case Studies That Reflect Our<br/> Commitment to Excellence</p>
+        <Whoweare image={whoweare} button='Who We Are &nbsp; →' />
+      </div>
       <Counts />
 
       <div className='pt-20 lg:pt-30 text-center bg-gradient-to-t from-black to-[#1E1E1E] text-white '>

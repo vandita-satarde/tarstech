@@ -18,25 +18,25 @@ function BlogsPage() {
         <p className='text-[12px] lg:text-[18px] text-[#9C9C9C] font-[500] '>Blogs</p>
         <p className='text-[16px] lg:text-[28px] mt-1 md:mt-3 uppercase font-[neutral_face]'>THE TARS PERSPECTIVE</p>
         <div className='relative'>
-          <img src={mainBlog} className='h-[450px] w-[1200px] object-cover mx-auto mt-18 rounded-[12px] ' />
-          <div className='absolute bottom-10 left-50 space-y-5 '>
-            <p className='bg-[#4B6BFB] w-[97px] py-1 text-[14px] rounded-[6px]  '>Technology</p>
-            <p className='text-[36px] text-left font-semibold leading-11 '>The Impact of Technology on the<br /> Workplace: How Technology is Changing</p>
-            <div className='text-[16px] flex items-center gap-3'>
-              <img src={blogProfile} className='w-[36px] h-[36px] ' />
+          <img src={mainBlog} className='h-[220px] md:h-[450px] w-[330px] md:w-[1200px] object-cover mx-auto mt-18 rounded-[12px] ' />
+          <div className='absolute bottom-2 lg:bottom-10 left-7 lg:left-50 space-y-2 md:space-y-5 '>
+            <p className='bg-[#4B6BFB] w-[82px] md:w-[97px] py-1 text-[10px] md:text-[14px] rounded-[6px]  '>Technology</p>
+            <p className='text-[14px] md:text-[36px] text-left font-semibold leading-5 md:leading-11 '>The Impact of Technology on the<br /> Workplace: How Technology is Changing</p>
+            <div className='text-[12px] md:text-[16px] flex items-center gap-3'>
+              <img src={blogProfile} className='w-[24px] md:w-[36px]  ' />
               <p>Tracey Wilson</p>
-              <p className='ml-2'>August 20, 2022</p>
+              <p className='ml-1 md:ml-2'>August 20, 2022</p>
             </div>
           </div>
         </div>
 
-        <div className='flex justify-center gap-6 py-10 '>
+        <div className='flex flex-col md:flex-row justify-center items-center gap-6 py-6 md:py-10 '>
           <BlogCard name='Tracey Wilson' />
           <BlogCard name='Tracey Wilson' />
           <BlogCard name='Tracey Wilson' />
         </div>
 
-        <button className='w-[120px] py-3 text-[16px] rounded-[6px] border '>Load More</button>
+        <button className='w-[90px] md:w-[120px] py-3 text-[12px] md:text-[16px] rounded-[6px] border '>Load More</button>
       </div>
 
       <GetinTouch />
